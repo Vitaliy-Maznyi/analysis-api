@@ -11,4 +11,8 @@ gem 'pg'
 
 gem 'rack-cors', :require => 'rack/cors'
 
+gem 'devise_token_auth'
 
+gem 'rspec-rails'
+
+gem 'factory_girl_rails'

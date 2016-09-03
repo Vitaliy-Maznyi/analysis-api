@@ -1,0 +1,8 @@
+example_id                                                 | status | run_time        |
+---------------------------------------------------------- | ------ | --------------- |
+./spec/controllers/api/analyzes/analyze_spec.rb[1:1:1:1]   | passed | 0.24743 seconds |
+./spec/controllers/api/analyzes/analyze_spec.rb[1:1:1:2]   | passed | 0.23075 seconds |
+./spec/controllers/api/analyzes/analyze_spec.rb[1:1:2:1]   | passed | 0.0028 seconds  |
+./spec/controllers/api/analyzes/correlate_spec.rb[1:1:1:1] | passed | 0.22529 seconds |
+./spec/controllers/api/analyzes/correlate_spec.rb[1:1:1:2] | passed | 0.22261 seconds |
+./spec/controllers/api/analyzes/correlate_spec.rb[1:1:2:1] | passed | 0.00292 seconds |

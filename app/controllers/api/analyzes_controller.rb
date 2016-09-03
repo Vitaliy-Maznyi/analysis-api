@@ -1,4 +1,6 @@
 class Api::AnalyzesController < ApplicationController
+  before_action :authenticate_api_user!
+
   def analyze
     @analysis = Calculations.new(params[:data]).perform
     render :json => { analysis: @analysis}, :status => 200

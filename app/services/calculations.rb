@@ -59,7 +59,6 @@ class Calculations
   end
 
   def perform(datum = {})
-    datum['dataset'] = @data
     datum['min'] = @data.min
     datum['max'] = @data.max
     datum['average'] = average_value(@data)

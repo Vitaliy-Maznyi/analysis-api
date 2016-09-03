@@ -10,7 +10,8 @@ use Rack::Cors do
   allow do
     origins '*'
     resource '*',
-             :headers => :any,
-             :methods => [:get, :post, :delete, :put, :options]
+             headers: :any,
+             expose: %i[access-token, expiry, token-type, uid, client],
+             methods: %i[get, post, delete, put, options]
   end
 end
